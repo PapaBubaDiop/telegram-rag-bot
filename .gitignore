@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Secrets and local configuration
+.env
+.env.*
+config.php
+config.local.php
+secrets.php
+*.key
+
+# Logs and temporary files
+*.log
+logs/
+cache/
+tmp/
+
+# Dependencies
+vendor/
+
+# IDE
+.vscode/
+.idea/
